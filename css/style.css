@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+html, body{
+    width: 1080px;
+    height: 100%;
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+nav.desktop-menu{
+    max-width: 1080px;
+    width: 90%;
+    height: 60px;
+    margin-top: 10px;
+    border: 5px solid black;
+}
+
+section.gallery-box{
+    width: 100%;
+    margin-top: 10px;
+    border: 5px solid blue;
+}
+
+section.gallery-box > .gallery{
+    width: 100%;
+    margin: 10px 10px;
+    border: 5px solid green;
+}
+
+ul.codex-characters{
+    width: 100%;
+    height: 100%;
+}
+
+li.character-card{
+    width: 260px;
+    height: 400px;
+    margin: 10px 10px;
+    align-items: center;
+    border: 4px solid black;
+}
+
+li.card-title{
+    color: white;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+
+li.character-image{
+    width: 180px;
+    height: 260px;
+    border-top: 5px;
+    background-image: url(/gallery-test/images/Gata\ Negra.png);
+}
+
+li.character-card > .stars-rank{
+    width: 200px;
+    height: 20px;
+    border-top: 5px;
+    background-color: purple;
+}
+
